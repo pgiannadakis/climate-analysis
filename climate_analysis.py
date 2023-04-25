@@ -7,6 +7,7 @@ script = sys.argv[0]
 assert len(sys.argv) == 2, script + ": requires filename"
 filename = sys.argv[1]
 
+#Climate analysis tool
 climate_data = open(filename, 'r')
 
 for line in climate_data:
