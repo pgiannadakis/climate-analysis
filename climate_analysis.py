@@ -8,6 +8,8 @@ assert len(sys.argv) == 2, script + ": requires filename"
 filename = sys.argv[1]
 
 #Climate analysis tool
+# TODO(smangham): Add call to process rainfall
+
 climate_data = open(filename, 'r')
 
 for line in climate_data:
