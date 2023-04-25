@@ -9,6 +9,8 @@ filename = sys.argv[1]
 
 #Climate analysis tool
 # TODO(smangham): Add call to process rainfall
+#crap
+
 
 climate_data = open(filename, 'r')
 
